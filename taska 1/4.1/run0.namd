@@ -1,0 +1,59 @@
+# NAMD config file
+numsteps 		1000
+structure 		div_ion.psf
+coordinates 		div_ion.pdb
+outputName 		run0
+XSTfile			run0.xst
+
+bincoordinates		eq2.coor
+binvelocities		eq2.vel
+extendedSystem		eq2.xsc
+
+langevin                        on
+langevinTemp                    295
+langevinFile                    siliconRest_1.0.pdb
+langevinCol                     B
+
+switching		on
+switchDist		10
+cutoff			12
+pairlistdist		12
+margin			3
+
+binaryOutput		yes
+binaryRestart		yes
+
+parameters		cornell.prm
+parameters		par_silicon_ions_NEW5.inp
+paraTypeCharmm		on
+wrapAll			yes
+wrapNearest		yes
+COMmotion		no
+
+outputEnergies		100
+outputTiming		100
+xstFreq			100
+dcdFreq			100
+restartFreq		100
+
+timestep		1
+nonBondedFreq		2
+fullElectFrequency	4
+stepsPerCycle		20
+
+Pme			on
+PmeGridSizeX		48
+PmeGridSizeY 		48
+PmeGridSizeZ		64
+
+exclude			scaled1-4
+1-4scaling		1
+
+constraints		on
+consKCol		B
+consref			siliconRest_1.0.pdb
+consKFile		siliconRest_1.0.pdb
+
+# electric field
+eFieldOn		on
+eField			0.0 0.0 6.2528
