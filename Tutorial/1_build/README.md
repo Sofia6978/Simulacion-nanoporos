@@ -1,4 +1,4 @@
-En este primer apartado construiremos un un nanoporo en una membrana y bloque en forma hexagonal a partir de la estructura de una molécula de Si3N4.
+En este primer apartado construiremos un nanoporo en una membrana con forma hexagonal y un bloque a partir de la estructura de una molécula de Si3N4.
 
 - Primero, replicamos esta molécula para crear la membrana con el script replicateCrystal.tlc
 
