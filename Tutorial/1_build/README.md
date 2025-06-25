@@ -2,7 +2,7 @@ En este primer apartado construiremos un nanoporo en una membrana con forma hexa
 
 - Primero, replicamos esta molécula para crear la membrana con el script replicateCrystal.tlc
 
-- Segundo, imponemos los límites de esta membrana en forma hexagonal con el script cutHexagon.tlc (obtenemos archivos del tipo .bound)
+- Segundo, imponemos los límites de esta membrana en forma hexagonal con el script cutHexagon.tlc (obtenemos archivos del tipo .bound y tmp.pdb, que es la temperatura)
 
 - Tercero, realizamos el poro en la membrana con el script drillPore.tlc
 
