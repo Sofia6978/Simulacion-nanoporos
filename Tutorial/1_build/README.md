@@ -6,4 +6,4 @@ En este primer apartado construiremos un nanoporo en una membrana con forma hexa
 
 - Tercero, realizamos el poro en la membrana con el script drillPore.tlc
 
-- Cuarto, creamos el archivo .psf de la estructura con el script siliconNitridePSF.tlc
+- Cuarto, creamos el archivo .psf de la estructura con el script siliconNitridePSF.tlc (se crea archivo surf)
