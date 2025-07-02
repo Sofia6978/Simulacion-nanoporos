@@ -6,4 +6,3 @@ eq2: equilibramos la estructura a una presión constante y con el termostato de 
 
 run0: aplicamos a la estructura una diferencia de voltaje
 
-electricCurrentZ: script para calcular la corriente iónica a traves del poro
