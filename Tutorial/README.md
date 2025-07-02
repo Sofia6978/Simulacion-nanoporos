@@ -1,3 +1,1 @@
-Estos son los archivos correspondientes al tutorial de VMD:http://www.ks.uiuc.edu/Training/Tutorials/#namd
-
-A partir de este tutorial básico para calcular la corriente a través de un nanoporo en solución acuosa con iones diseñare mi proyecto final para la asignatura de Simulaciones de Sistemas Nanométricos.
+Estos son los archivos correspondientes a mi proyecto a partir de un tutorial de NAMD. Calcularemos la curva I-V de un nanoporo en solución acuosa con iones para la asignatura de Simulaciones de Sistemas Nanométricos con el objetivo de verificar que se cumpla en este caso la ley de Ohm.
