@@ -6,5 +6,7 @@ eq2: equilibramos la estructura a una presión constante y con el termostato de 
 
 run0: aplicamos a la estructura una diferencia de voltaje en forma de campo eléctrico. La relación entre ambos es:
 
-E_z = U(V/-l_z), donde U es un factor de conversión y l_z el tamaño del sistema en z
+\(E_z = U(V/-l_z)\)
+
+, donde U es un factor de conversión y l_z el tamaño del sistema en z
 
