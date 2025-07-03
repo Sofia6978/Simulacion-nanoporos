@@ -2,7 +2,7 @@
 # Use with: tclsh drillPore.tcl
 # jcomer2@uiuc.edu
 
-# Parameters:
+# Parammetros del poro:
 set radiusMin 8
 set radiusMax 15
 # Input:
@@ -23,10 +23,10 @@ proc readLz {boundaryFile} {
 	return $lz
 }
 
-# Determine whether the position {x y z} is inside of pore and
-# should be deleted.
+# Definimos las posiciones {x y z} que se encuentran dentro del poro.
+# Si se encuentran fuera se eliminan.
 proc insidePore {x y z sMin sMax lz} {
-	# Get the radius for the double cone at this z-value.
+	# obtenemos el radio del poro en determinado valor de z.
 	set s [expr $sMin + 2.0*($sMax-$sMin)/$lz*abs($z)]
 	
 	return [expr $x*$x + $y*$y < $s*$s]
