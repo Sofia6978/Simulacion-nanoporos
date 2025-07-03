@@ -8,8 +8,8 @@ set unitCellPdb "unit_cell_alpha.pdb"
 set outPdb "Bloque.pdb"
 # Parameters:
 # Choose n1 and n2 even if you wish to use cutHexagon.tcl.
-set n1 6
 # Número de veces que se replica la celda unidad
+set n1 6
 set n2 6
 set n3 16
 set l1 7.595
